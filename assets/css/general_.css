@@ -1,0 +1,36 @@
+body
+{
+    font-family: Calibri;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background: url(../images/bg_.png) repeat;
+}
+
+div.container
+{
+    position: relative;
+    top: 0px;
+    height: 450px;
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+}
+
+div.navi_blocker
+{
+    position: absolute;
+    background: #ffffff;
+    top: 0px;
+    left: -225px;
+    width: 225px;
+    height: 768px;
+    z-index: 9999;
+}
+
+span.sitename
+{
+    margin-left: 25px;
+    font-size: 35px;
+}
